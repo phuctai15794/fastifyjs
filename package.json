@@ -1,0 +1,24 @@
+{
+    "name": "fastifyjs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server",
+        "dev": "nodemon server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "fastify": "^4.4.0",
+        "fastify-swagger": "^5.2.0",
+        "npm": "^8.17.0",
+        "start": "^5.1.0",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
+}
